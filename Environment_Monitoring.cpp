@@ -1,4 +1,4 @@
-```#include <Arduino.h>
+#include <Arduino.h>
 #include <Wire.h>
 #include <DHT.h>
 #include <LiquidCrystal_I2C.h>
@@ -307,4 +307,4 @@ void loop() {
     previousUptimeMillis = currentMillis; 
     uptimeSeconds++;
   }
-}```
+}
